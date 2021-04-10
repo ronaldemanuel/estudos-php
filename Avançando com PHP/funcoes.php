@@ -28,5 +28,5 @@ function depositar(array $conta, float $valor) : array
 
 function titularComLetrasMaiusculas(array &$conta)
 {
-    $conta['titular'] = mb_strtoupper($conta['titular']);
+    $conta['titular'] = strtoupper($conta['titular']);
 }
