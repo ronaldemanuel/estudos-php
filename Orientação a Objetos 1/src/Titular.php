@@ -2,19 +2,14 @@
 
 class Titular
 {
-    private string $cpf;
+    private Cpf $cpf;
     private string $nome;
 
-    public function __construct(string $cpf, string $nome)
+    public function __construct(Cpf $cpf, string $nome)
     {
         $this->cpf = $cpf;
         $this->validarNomeTitular($nome);
         $this->nome = $nome;
-    }
-
-    public function getCpf(): string
-    {
-        return $this->cpf;
     }
 
     public function getNome(): string
@@ -32,7 +27,7 @@ class Titular
 
     public function exibir(): void
     {
-        echo $this->cpf . PHP_EOL;
+        echo $this->cpf->getCpf() . PHP_EOL;
         echo "Titular: " . $this->nome . PHP_EOL;
     }
 }
