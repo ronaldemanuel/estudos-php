@@ -60,12 +60,4 @@ class Conta
     {
         return Conta::$numeroDeContas;
     }
-
-
-    public function exibir(): void
-    {
-        echo PHP_EOL;
-        $this->titular->exibir();
-        echo "Saldo: R$" . $this->saldo . PHP_EOL;
-    }
 }

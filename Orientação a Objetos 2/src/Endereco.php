@@ -34,11 +34,4 @@ class Endereco
     {
         return $this->numero;
     }
-
-    public function exibir(): void
-    {
-        echo "Rua: " . $this->getRua() . PHP_EOL;
-        echo "Bairro: " . $this->getBairro() . PHP_EOL;
-        echo "Cidade: " . $this->getCidade() . PHP_EOL;
-    }
 }
