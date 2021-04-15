@@ -4,12 +4,14 @@ class Titular
 {
     private Cpf $cpf;
     private string $nome;
+    private Endereco $endereco;
 
-    public function __construct(Cpf $cpf, string $nome)
+    public function __construct(Cpf $cpf, string $nome, Endereco $endereco)
     {
         $this->cpf = $cpf;
         $this->validarNomeTitular($nome);
         $this->nome = $nome;
+        $this->endereco = $endereco;
     }
 
     public function getNome(): string
@@ -29,5 +31,16 @@ class Titular
     {
         echo $this->cpf->getCpf() . PHP_EOL;
         echo "Titular: " . $this->nome . PHP_EOL;
+        $this->endereco->exibir();
+    }
+
+    public function getCpf(): Cpf
+    {
+        return $this->cpf;
+    }
+
+    public function getEndereco(): Endereco 
+    {
+        return $this->endereco;
     }
 }
