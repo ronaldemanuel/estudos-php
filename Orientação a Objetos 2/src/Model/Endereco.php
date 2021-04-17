@@ -1,5 +1,7 @@
 <?php
 
+namespace Alura\Banco\Model;
+
 class Endereco
 {
     private string $cidade;

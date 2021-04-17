@@ -1,6 +1,10 @@
 <?php
 
-require_once 'src/Model/Pessoa.php';
+namespace Alura\Banco\Model\Account;
+
+use Alura\Banco\Model\Pessoa;
+use Alura\Banco\Model\Cpf;
+use Alura\Banco\Model\Endereco;
 
 class Titular extends Pessoa
 {

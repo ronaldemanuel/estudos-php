@@ -1,6 +1,6 @@
 <?php
 
-require_once 'src/Model/Pessoa.php';
+namespace Alura\Banco\Model;
 
 class Funcionario extends Pessoa
 {
