@@ -1,7 +1,5 @@
 <?php
 
-namespace Modelo;
-
 class Cpf
 {
     private string $cpf;
