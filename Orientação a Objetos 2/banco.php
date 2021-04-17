@@ -1,9 +1,10 @@
 <?php
 
-require_once 'src/Conta.php';
-require_once 'src/Titular.php';
-require_once 'src/Cpf.php';
-require_once 'src/Endereco.php';
+require_once 'src/Model/Account/Conta.php';
+require_once 'src/Model/Account/Titular.php';
+require_once 'src/Model/Cpf.php';
+require_once 'src/Model/Endereco.php';
+require_once 'src/Model/Pessoa.php';
 
 $ronald = new Titular(new Cpf('123.456.789-10'), 'Ronald Emanuel', new Endereco('Junqueiro', 'João José Pereira', 'Maria José de Almeida', 196));
 $primeiraConta = new Conta($ronald);

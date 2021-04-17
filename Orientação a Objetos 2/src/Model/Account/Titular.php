@@ -1,5 +1,7 @@
 <?php
 
+require_once 'src/Model/Pessoa.php';
+
 class Titular extends Pessoa
 {
     private Endereco $endereco;
