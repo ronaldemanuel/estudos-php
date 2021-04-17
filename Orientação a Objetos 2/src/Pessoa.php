@@ -1,7 +1,5 @@
 <?php
 
-namespace Modelo;
-
 class Pessoa 
 {
     protected string $nome;
