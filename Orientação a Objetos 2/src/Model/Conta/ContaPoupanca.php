@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Banco\Model\Account;
+namespace Alura\Banco\Model\Conta;
 
 class ContaPoupanca extends Conta
 {

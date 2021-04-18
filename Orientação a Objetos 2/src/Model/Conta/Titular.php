@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Banco\Model\Account;
+namespace Alura\Banco\Model\Conta;
 
 use Alura\Banco\Model\Pessoa;
 use Alura\Banco\Model\Cpf;

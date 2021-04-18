@@ -2,7 +2,7 @@
 
 require_once 'autoloader.php';
 
-use Alura\Banco\Model\Account\{ContaCorrente, ContaPoupanca, Titular};
+use Alura\Banco\Model\Conta\{ContaCorrente, ContaPoupanca, Titular};
 use Alura\Banco\Model\{Cpf, Endereco};
 
 $conta = new ContaPoupanca(
