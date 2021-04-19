@@ -8,4 +8,4 @@
 
 - [x] Orientação a Objetos com PHP: Classes, métodos, atributos
 
-- [ ] Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces
+- [x] Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces
