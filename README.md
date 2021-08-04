@@ -9,3 +9,5 @@
 - [x] Orientação a Objetos com PHP: Classes, métodos, atributos
 
 - [x] Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces
+
+- [ ] PHP e PDO: Trabalhando com bancos de dados
