@@ -15,6 +15,15 @@ class Student
         $this->birthDate = $birthDate;
     }
 
+    public function defineId(int $id): void
+    {
+        if (!is_null($this->id)) {
+            throw new \DomainException('Você só pode definir o ID uma vez');
+        }
+
+        $this->id = $id;
+    }
+
     public function getId(): ?int
     {
         return $this->id;
@@ -23,6 +32,11 @@ class Student
     public function getName(): string
     {
         return $this->name;
+    }
+
+    public function setName(string $name)
+    {
+        $this->name = $name;
     }
 
     public function getBirthDate(): \DateTimeInterface
